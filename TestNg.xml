@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Walmart testing">
+<listeners>
+<listeners class-name="Screenshots.screenshots.failedscreenshots"/>
+</listeners>
+	<test name="online shopping canada Automation">
+		<classes>
+			<class name="Testlayer.Shoppingcart"/>
+			<class name="Testlayer.Searchwalmart"/>
+		</classes>
+	</test>
+	
+</suite>
+		

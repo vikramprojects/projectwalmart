@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Walmart testing]">
+  <test thread-count="5" name="online shopping canada Automation(failed)">
+    <classes>
+      <class name="Testlayer.Shoppingcart">
+        <methods>
+          <include name="TC119Addmultipleitem"/>
+          <include name="TC118decreasequantitiy"/>
+          <include name="TC120Removeoneitem"/>
+          <include name="TC117increasequantity"/>
+          <include name="initsetup"/>
+          <include name="TC116Shoppingcart"/>
+          <include name="TC121closebrowser"/>
+          <include name="close"/>
+          <include name="TC115additemtocart"/>
+          <include name="complete"/>
+        </methods>
+      </class> <!-- Testlayer.Shoppingcart -->
+      <class name="Testlayer.Searchwalmart">
+        <methods>
+          <include name="TC100customerrating"/>
+          <include name="TC94searching"/>
+          <include name="TC103choosingseller"/>
+          <include name="pagination"/>
+          <include name="complete"/>
+          <include name="TC95Relevantproduct"/>
+          <include name="TC109sortingnewest"/>
+          <include name="TC113sortingfiltration"/>
+          <include name="close"/>
+          <include name="initsetup"/>
+        </methods>
+      </class> <!-- Testlayer.Searchwalmart -->
+    </classes>
+  </test> <!-- online shopping canada Automation(failed) -->
+</suite> <!-- Failed suite [Walmart testing] -->
